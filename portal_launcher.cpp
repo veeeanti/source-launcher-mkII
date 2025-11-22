@@ -36,8 +36,8 @@ int main() {
     STARTUPINFOW si = { sizeof(si) };
     PROCESS_INFORMATION pi;
 
-	// Run hl2.exe with proper launch arguments to start up Half-Life: Source
-    std::wstring commandLine = L"hl2.exe -game hl1";
+	// Run hl2.exe with proper launch arguments to start up Portal. This will work with the 20th Anniversary Update and the steam_legacy branches, as long as you have Portal's game files in the directory. (and also didn't rename anything)
+    std::wstring commandLine = L"hl2.exe -game portal";
     BOOL result = CreateProcessW(
         NULL,
         &commandLine[0],

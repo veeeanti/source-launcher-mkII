@@ -22,12 +22,12 @@ BEGIN
         BLOCK "040904b0"
         BEGIN
             VALUE "CompanyName", "veeanti"
-            VALUE "FileDescription", "Half-Life: Source"
+            VALUE "FileDescription", "Portal"
             VALUE "FileVersion", "1.0.0.0"
-            VALUE "InternalName", "hl1_launcher"
+            VALUE "InternalName", "portal_launcher"
             VALUE "LegalCopyright", "union-crax.xyz"
-            VALUE "OriginalFilename", "hl2_launcher.exe"
-            VALUE "ProductName", "Half-Life: Source Launcher"
+            VALUE "OriginalFilename", "portal_launcher.exe"
+            VALUE "ProductName", "Portal Launcher"
             VALUE "ProductVersion", "1.0.0.0"
         END
     END

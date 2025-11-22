@@ -1,9 +1,9 @@
-#ifndef HL1_LAUNCHER_H
-#define HL1_LAUNCHER_H
+#ifndef PORTAL_LAUNCHER_H
+#define PORTAL_LAUNCHER_H
 
 #include <string>
 
 // Function declarations
 bool fileExists(const std::string& filePath);
 
-#endif // HL1_LAUNCHER_H
+#endif // PORTAL_LAUNCHER_H

@@ -36,8 +36,8 @@ int main() {
     STARTUPINFOW si = { sizeof(si) };
     PROCESS_INFORMATION pi;
 
-	// Run hl2.exe with proper launch arguments to start up Half-Life 2: Episode One
-    std::wstring commandLine = L"hl2.exe -game episodic";
+	// Run hl2.exe with proper launch arguments to start up Half-Life 2: Episode Two
+    std::wstring commandLine = L"hl2.exe -game ep2";
     BOOL result = CreateProcessW(
         NULL,
         &commandLine[0],
@@ -51,7 +51,7 @@ int main() {
         &pi
     );
 
-	// The horror! The absolute horror! IT FAILED TO LAUNCH HL2.EXE AHHHHHHHHHHHH!!!!!!!!
+	// The horror! The absolute horror! IT FAILED TO LAUNCH HL2.EXE!! AAAAHHHHHHHHHHHH!!!!!!!!
 	// (i don't know why this happened, there's no way to know why it failed to launch either, so it's entirely on your end)
     if (!result) {
         DWORD error = GetLastError();

@@ -22,12 +22,12 @@ BEGIN
         BLOCK "040904b0"
         BEGIN
             VALUE "CompanyName", "veeanti"
-            VALUE "FileDescription", "Half-Life 2: Episode One"
+            VALUE "FileDescription", "Half-Life 2: Episode Two"
             VALUE "FileVersion", "1.0.0.0"
             VALUE "InternalName", "hl2_launcher"
             VALUE "LegalCopyright", "union-crax.xyz"
-            VALUE "OriginalFilename", "episodic_launcher.exe"
-            VALUE "ProductName", "Half-Life 2: Episode One Launcher"
+            VALUE "OriginalFilename", "ep2_launcher.exe"
+            VALUE "ProductName", "Half-Life 2: Episode Two Launcher"
             VALUE "ProductVersion", "1.0.0.0"
         END
     END

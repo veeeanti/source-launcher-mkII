@@ -1,9 +1,9 @@
-#ifndef PORTAL_LAUNCHER_H
-#define PORTAL_LAUNCHER_H
+#ifndef BMS_LAUNCHER_H
+#define BMS_LAUNCHER_H
 
 #include <string>
 
 // Function declarations
 bool fileExists(const std::string& filePath);
 
-#endif // PORTAL_LAUNCHER_H
+#endif // BMS_LAUNCHER_H

@@ -22,12 +22,12 @@ BEGIN
         BLOCK "040904b0"
         BEGIN
             VALUE "CompanyName", "veeanti"
-            VALUE "FileDescription", "Half-Life 2: Lost Coast"
+            VALUE "FileDescription", "Half-Life: Source"
             VALUE "FileVersion", "1.0.0.0"
-            VALUE "InternalName", "hl2_launcher"
+            VALUE "InternalName", "hl1_launcher"
             VALUE "LegalCopyright", "union-crax.xyz"
-            VALUE "OriginalFilename", "lostcoast_launcher.exe"
-            VALUE "ProductName", "Half-Life 2: Lost Coast Launcher"
+            VALUE "OriginalFilename", "hl2_launcher.exe"
+            VALUE "ProductName", "Half-Life: Source Launcher"
             VALUE "ProductVersion", "1.0.0.0"
         END
     END

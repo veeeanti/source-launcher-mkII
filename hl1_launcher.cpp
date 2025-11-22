@@ -36,8 +36,8 @@ int main() {
     STARTUPINFOW si = { sizeof(si) };
     PROCESS_INFORMATION pi;
 
-	// Run hl2.exe with proper launch arguments to start up Half-Life 2: Lost Coast
-    std::wstring commandLine = L"hl2.exe -game lostcoast";
+	// Run hl2.exe with proper launch arguments to start up Half-Life: Source
+    std::wstring commandLine = L"hl2.exe -game hl1";
     BOOL result = CreateProcessW(
         NULL,
         &commandLine[0],

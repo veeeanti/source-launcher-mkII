@@ -22,12 +22,12 @@ BEGIN
         BLOCK "040904b0"
         BEGIN
             VALUE "CompanyName", "veeanti"
-            VALUE "FileDescription", "Black Mesa: Blue Shift"
+            VALUE "FileDescription", "Black Mesa: Military"
             VALUE "FileVersion", "1.0.0.0"
-            VALUE "InternalName", "bshift_launcher"
+            VALUE "InternalName", "bmmilitary_launcher"
             VALUE "LegalCopyright", "union-crax.xyz"
             VALUE "OriginalFilename", "bms_launcher.exe"
-            VALUE "ProductName", "Black Mesa: Blue Shift Launcher"
+            VALUE "ProductName", "Black Mesa: Military Launcher"
             VALUE "ProductVersion", "1.0.0.0"
         END
     END

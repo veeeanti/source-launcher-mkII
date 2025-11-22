@@ -35,15 +35,12 @@ int main() {
         return 1;
     }
 
-    // This is a note for whenever it's run and no errors come up to let people know that Black Mesa Blue Shift takes a weirdly long time to fully launch and run, and to prevent people from running it more than once (though Source Engine already has a built in safeguard for that that only lets one instance of any Source Engine game run at any given time)
-    MessageBoxA(NULL, "Please give the game a few minutes to launch, do not run it again - it worked, it just takes a long time normally, I'm not sure why but it's just something that Blue Shift does. It's nothing caused by this nor is it anything on your end, so just please be patient. You can close this window or click 'OK' safely, it won't interrupt the game's launching.", "BMS Launcher - Heads up!", MB_OK | MB_ICONINFORMATION);
-
     // the actual running of bms.exe
     STARTUPINFOW si = { sizeof(si) };
     PROCESS_INFORMATION pi;
 
-	// Black Mesa: Blue Shift launch command line arguments, -disabledvk and -forceuid3d9 are required or else the game will crash on launch. Thanks, crowbar collective.
-    std::wstring commandLine = L"bms.exe -game bshift -disabledxvk -forceuid3d9";
+	// Black Mesa: Military launch command line arguments, -disabledvk and -forceuid3d9 are required or else the game will crash on launch. Thanks, crowbar collective.
+    std::wstring commandLine = L"bms.exe -game bmmilitary -disabledxvk -forceuid3d9";
     BOOL result = CreateProcessW(
         NULL,
         &commandLine[0],

@@ -37,7 +37,7 @@ int main() {
     PROCESS_INFORMATION pi;
 
 	// Run hl2.exe with proper launch arguments to start up Half-Life 2: Survivor Ver2.0
-    std::wstring commandLine = L"hl2.exe -game hl2mp -heapsize 512000 -width 1360 -height 768 -windowed -language japanese -ac -io 0 -nesys 0";
+    std::wstring commandLine = L"hl2.exe -game hl2mp -heapsize 512000 -width 1360 -height 768 -windowed -language english -ac -io 0 -nesys 0";
     BOOL result = CreateProcessW(
         NULL,
         &commandLine[0],

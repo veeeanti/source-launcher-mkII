@@ -3,7 +3,7 @@
 #include <string>
 #include <iostream>
 
-// Function to check if a file exists
+// Function to check if a file exists, only used to check if hl2.exe exists in the folder 
 bool fileExists(const std::string& filePath) {
     std::ifstream file(filePath);
     return file.good();
@@ -36,7 +36,7 @@ int main() {
     STARTUPINFOW si = { sizeof(si) };
     PROCESS_INFORMATION pi;
 
-	// Run hl2.exe with proper launch arguments to start up Half-Life 2: Survivor Ver2.0
+	// Run hl2.exe with proper launch arguments to start up Half-Life 2: Survivor Ver2.0, uses the launch arguments from the bat script instead
     std::wstring commandLine = L"hl2.exe -game hl2mp -windowed -w 1360 -h 768 -ac -nesys 0 -english";
     BOOL result = CreateProcessW(
         NULL,
@@ -51,8 +51,8 @@ int main() {
         &pi
     );
 
-	// The horror! The absolute horror! IT FAILED TO LAUNCH HL2.EXE AHHHHHHHHHHHH!!!!!!!!
-	// (i don't know why this happened, there's no way to know why it failed to launch either, so it's entirely on your end)
+	// a'ight, so we gots a problem here - it failed to run hl2.exe and i have no clue why. chances are it probably doesn't exist (to the launcher, i mean).
+    // make sure you can see the standard hl2.exe with the basic icon, if you can see it, just give my launcher the middle finger. it won't be hurt by it nor will it know.
     if (!result) {
         DWORD error = GetLastError();
         std::cerr << "Error: Failed to launch hl2.exe. Error code: " << error << std::endl;

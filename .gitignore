@@ -1,0 +1,8 @@
+*.bin
+*.cmake
+*.filters
+*.vcxproj
+*.bin
+*.tlog
+/build/CMakeFiles
+/build/hdtf_launcher.dir

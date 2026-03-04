@@ -6,3 +6,6 @@
 *.tlog
 /build/CMakeFiles
 /build/hdtf_launcher.dir
+build/CMakeCache.txt
+build/hdtfLauncher.sln
+*.recipe

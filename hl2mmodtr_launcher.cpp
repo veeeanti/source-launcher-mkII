@@ -36,8 +36,8 @@ int main() {
     STARTUPINFOW si = { sizeof(si) };
     PROCESS_INFORMATION pi;
 
-	// Run hl2.exe with proper launch arguments to start up Half-Life 2, NOTE: this is for the 20th Anniversary Update. steam_legacy branch doesn't have the hl2_complete folder so it will fail every time to run.
-    std::wstring commandLine = L"hl2.exe -game hl2_complete";
+	// Run hl2.exe with proper launch arguments to start up Half-Life 2 MMod Tactical Reloaded.
+    std::wstring commandLine = L"hl2.exe -game HL2MMod_TR";
     BOOL result = CreateProcessW(
         NULL,
         &commandLine[0],

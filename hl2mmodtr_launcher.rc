@@ -24,9 +24,9 @@ BEGIN
             VALUE "CompanyName", "veeanti"
             VALUE "FileDescription", "Half-Life 2 (20th Anniversary Update)"
             VALUE "FileVersion", "1.0.0.0"
-            VALUE "InternalName", "hl220th_launcher"
+            VALUE "InternalName", "hl2mmodtr20th_launcher"
             VALUE "LegalCopyright", "union-crax.xyz"
-            VALUE "OriginalFilename", "hl2_launcher.exe"
+            VALUE "OriginalFilename", "hl2mmodtr_launcher.exe"
             VALUE "ProductName", "Half-Life 2 (20th Anniversary Update) Launcher"
             VALUE "ProductVersion", "1.0.0.0"
         END
